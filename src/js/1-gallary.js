@@ -70,6 +70,7 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
+
 function imageTemplate({ preview, original, description }) {
     return `
        <li class="gallery-item">
@@ -100,3 +101,4 @@ const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
 });
+
